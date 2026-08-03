@@ -1,0 +1,16 @@
+{
+  "$schema": "../Schemas/Registry.schema.json",
+  "registryName": "AI Movie Skills",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "skill-0001",
+      "name": "Scene Composition",
+      "domain": "VisualLanguage",
+      "summary": "Metadata entry for a reusable filmmaking skill focused on composing frames and visual storytelling.",
+      "tags": ["camera", "composition", "visual storytelling"],
+      "source": "Knowledge/VisualLanguage/Scene_Composition/README.md",
+      "status": "draft"
+    }
+  ]
+}

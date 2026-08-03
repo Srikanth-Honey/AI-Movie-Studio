@@ -1,0 +1,11 @@
+* text=auto
+*.json text diff=JSON
+*.md text
+*.png binary
+*.jpg binary
+*.webp binary
+*.mp4 binary
+*.mov binary
+
+# Ensure LF for repository
+* text=auto eol=lf

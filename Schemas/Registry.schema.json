@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Registry Schema",
+  "type": "object",
+  "properties": {
+    "registryName": {"type": "string"},
+    "version": {"type": "string"},
+    "skills": {"type": "array","items": {"$ref": "Skill.schema.json"}}
+  },
+  "required": ["registryName","version","skills"]
+}
