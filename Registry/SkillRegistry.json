@@ -11,6 +11,42 @@
       "tags": ["camera", "composition", "visual storytelling"],
       "source": "Knowledge/VisualLanguage/Scene_Composition/README.md",
       "status": "draft"
+    },
+    {
+      "id": "ACT_0001",
+      "name": "Controlled Threat",
+      "domain": "Acting",
+      "summary": "A performer communicates danger by using stillness, quiet vocal control, and deliberate timing instead of overt aggression.",
+      "tags": ["threat", "dominance", "stillness", "control", "intimidation"],
+      "source": "Knowledge/Acting/ACT_0001_ControlledThreat.md",
+      "status": "draft"
+    },
+    {
+      "id": "VOI_0001",
+      "name": "Low-Volume Vocal Threat",
+      "domain": "Voice",
+      "summary": "A speaker can intensify menace by lowering volume, slowing pace, and using vocal proximity instead of shouting.",
+      "tags": ["voice", "threat", "whisper", "pace", "intimidation"],
+      "source": "Knowledge/Voice/VOI_0001_LowVolumeVocalThreat.md",
+      "status": "draft"
+    },
+    {
+      "id": "EDT_0001",
+      "name": "Cross-Spatial Pressure Cutting",
+      "domain": "Editing",
+      "summary": "Cross-cutting between separated characters can turn a remote exchange into a single psychological conflict by showing cause and reaction across spaces.",
+      "tags": ["editing", "cross-cutting", "pressure", "reaction", "distance"],
+      "source": "Knowledge/Editing/EDT_0001_CrossSpatialPressureCutting.md",
+      "status": "draft"
+    },
+    {
+      "id": "SND_0001",
+      "name": "Sonic Punctuation",
+      "domain": "Sound",
+      "summary": "A precise diegetic sound can punctuate a dramatic beat and make a character's intention feel final, controlled, or irreversible.",
+      "tags": ["sound", "punctuation", "emphasis", "prop", "finality"],
+      "source": "Knowledge/Sound/SND_0001_SonicPunctuation.md",
+      "status": "draft"
     }
   ]
 }
