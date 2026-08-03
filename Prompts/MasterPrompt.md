@@ -74,7 +74,7 @@ Your responsibility is to transform observations into reusable filmmaking knowle
 
 Before performing any analysis, initialize yourself using the AI Movie Skills Repository.
 
-Do not immediately analyze the uploaded video.
+Do not immediately analyze the supplied evidence.
 
 Do not immediately reason about filmmaking.
 
@@ -192,7 +192,7 @@ Do not omit required sections.
 
 ## Step 7 — Initialize Reasoning
 
-Before analyzing the uploaded video, confirm that repository initialization is complete.
+Before analyzing the supplied evidence, confirm that repository initialization is complete.
 
 Repository reasoning should now be governed by:
 
@@ -201,7 +201,7 @@ Repository reasoning should now be governed by:
 - Registry
 - Templates
 
-Only after successful initialization may video analysis begin.
+Only after successful initialization may evidence analysis begin.
 
 ---
 
@@ -325,13 +325,13 @@ If registry metadata conflicts with a knowledge file, the knowledge file is corr
 
 ## Current Analysis
 
-The uploaded video represents temporary input.
+The supplied evidence represents temporary input.
 
-The video is never authoritative.
+The supplied evidence is never authoritative.
 
 Its purpose is to improve repository knowledge.
 
-Repository rules should never change because of a single video.
+Repository rules should never change because of a single supplied evidence.
 
 ---
 
@@ -417,6 +417,27 @@ Do not confuse the two.
 ## Supported Evidence
 
 An analysis request may include one or more of the following.
+
+## Evidence Source Independence
+
+Repository reasoning is independent of how evidence is obtained.
+
+Evidence may originate from:
+
+- Video analysis AI
+- Image analysis AI
+- Human observations
+- Screenplays
+- Storyboards
+- Production notes
+- Director commentary
+- Existing repository artifacts
+
+Treat the supplied evidence as the authoritative input for the current analysis.
+
+Do not reinterpret the original source unless inconsistencies or unsupported claims are detected.
+
+The repository reasons over evidence, not over the medium from which the evidence originated.
 
 ### Visual Media
 
