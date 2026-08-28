@@ -4,10 +4,10 @@ title: Cross-Spatial Pressure Cutting
 category: Editing
 domain: Editing
 subdomain: Parallel Reaction Editing
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-04
-lastUpdated: 2026-08-04
+lastUpdated: 2026-08-28
 summary: Cross-cutting between separated characters can turn a remote exchange into a single psychological conflict by showing cause and reaction across spaces.
 tags:
   - editing
@@ -15,10 +15,11 @@ tags:
   - pressure
   - reaction
   - distance
-confidenceScore: 0.82
+confidenceScore: 0.85
 relatedSkills:
   - ACT_0001
   - VOI_0001
+  - EDT_0002
 aliases:
   - Remote Pressure Cutting
   - Cross-Space Psychological Editing
@@ -26,6 +27,7 @@ aliases:
 source: Knowledge/Editing/EDT_0001_CrossSpatialPressureCutting.md
 references:
   - Structured scene evidence supplied for repository review on 2026-08-04
+  - Verbatim scene analysis of 'Mirchi' warning sequence (copied to warning_scene.mp4)
 ---
 
 # Definition
@@ -117,3 +119,5 @@ Sound bridges are crucial. Voiceover, phone tone, drones, silence, or recurring 
 # Repository Decision
 
 Decision: Create New. Repository search found no existing editing skill for cross-cutting remote psychological pressure. The principle is independent from acting and voice because it concerns how edits establish cause-and-effect across separated locations. Human review should confirm that this domain placement is preferred over Storytelling.
+
+Improvement (v1.1.0): Improved by linking related skill EDT_0002 (Kinetic Interception Cutting) and adding references.

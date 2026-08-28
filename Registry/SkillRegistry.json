@@ -1,7 +1,7 @@
 {
   "$schema": "../Schemas/Registry.schema.json",
   "registryName": "AI Movie Skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "skills": [
     {
       "id": "skill-0001",
@@ -46,6 +46,168 @@
       "summary": "A precise diegetic sound can punctuate a dramatic beat and make a character's intention feel final, controlled, or irreversible.",
       "tags": ["sound", "punctuation", "emphasis", "prop", "finality"],
       "source": "Knowledge/Sound/SND_0001_SonicPunctuation.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0002",
+      "name": "Explosive Transition from Stillness",
+      "domain": "Acting",
+      "summary": "A performer transitions from silent, highly compressed physical containment to explosive kinetic movement to shock and overpower an aggressor.",
+      "tags": ["transition", "containment", "fury", "kinetics", "threat"],
+      "source": "Knowledge/Acting/ACT_0002_ExplosiveTransition.md",
+      "status": "draft"
+    },
+    {
+      "id": "VOI_0002",
+      "name": "Resonant Vocal Warning",
+      "domain": "Voice",
+      "summary": "A speaker delivers a warning in a deep, thunderous, and diaphragmatic roar to project absolute territorial dominance.",
+      "tags": ["voice", "roar", "dominance", "warning", "resonance", "power"],
+      "source": "Knowledge/Voice/VOI_0002_ResonantVocalWarning.md",
+      "status": "draft"
+    },
+    {
+      "id": "EDT_0002",
+      "name": "Kinetic Interception Cutting",
+      "domain": "Editing",
+      "summary": "Cross-cutting between a pursuing character taking physical shortcuts and escaping targets in vehicles to build kinetic velocity and collision anticipation.",
+      "tags": ["editing", "cross-cutting", "parallel-editing", "chase", "kinetics", "velocity"],
+      "source": "Knowledge/Editing/EDT_0002_KineticInterceptionCutting.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0003",
+      "name": "Rhetorical Shame Leveraging",
+      "domain": "Acting",
+      "summary": "A performer leverages the visible pride of a subordinate to contrast and dismantle the target's idle self-pity, shifting from casual banter to diaphragmatic conviction.",
+      "tags": ["acting", "shame", "pride", "motivation", "vocal-shift", "dignity"],
+      "source": "Knowledge/Acting/ACT_0003_RhetoricalShameLeveraging.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0002",
+      "name": "Tactile Re-integration",
+      "domain": "VisualLanguage",
+      "summary": "A visual storytelling technique using physical contact and the transfer of a physical symbol of responsibility to represent restoration of trust and dignity.",
+      "tags": ["visual-storytelling", "blocking", "gestures", "dignity", "authority", "reconciliation"],
+      "source": "Knowledge/VisualLanguage/VIS_0002_TactileReintegration.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0001",
+      "name": "Grille-Obscured Observation",
+      "domain": "Camera",
+      "summary": "Framing characters looking through physical barriers like window grilles or doors to symbolize their emotional confinement or helplessness, which melts into tearful relief as they witness a positive transformation.",
+      "tags": ["camera", "framing", "composition", "visual-storytelling", "bars", "emotion"],
+      "source": "Knowledge/Camera/CAM_0001_GrilleObscuredObservation.md",
+      "status": "draft"
+    },
+    {
+      "id": "SND_0002",
+      "name": "Non-Diegetic Score Dropout",
+      "domain": "Sound",
+      "summary": "The sudden, complete removal of background music to focus audience attention on raw, unmediated diegetic sounds or key lines of dialogue during a dramatic climax.",
+      "tags": ["sound", "music", "silence", "tension", "climax"],
+      "source": "Knowledge/Sound/SND_0002_NonDiegeticScoreDropout.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0003",
+      "name": "Theatrical Judicial Staging",
+      "domain": "VisualLanguage",
+      "summary": "Positioning opposing factions across distinct vertical and horizontal planes in a large set to visually dramatize power imbalances and moral conflicts.",
+      "tags": ["blocking", "staging", "verticality", "authority", "confrontation"],
+      "source": "Knowledge/VisualLanguage/VIS_0003_TheatricalJudicialStaging.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0002",
+      "name": "Heroic Speed-Ramped Entrance Tracking",
+      "domain": "Camera",
+      "summary": "Combining low-angle tracking shots with selective slow-motion speed ramping to amplify a character's physical presence and moral weight upon entering a scene.",
+      "tags": ["tracking", "low-angle", "speed-ramp", "slow-motion", "hero-entry"],
+      "source": "Knowledge/Camera/CAM_0002_HeroicSpeedRampedEntrance.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0004",
+      "name": "Defiant Subjugation Performance",
+      "domain": "Acting",
+      "summary": "Performing intense emotional defiance while physically restrained, using rigid spine posture, controlled jaw tension, and steady unblinking eye contact.",
+      "tags": ["acting", "defiance", "restraint", "chains", "eye-contact"],
+      "source": "Knowledge/Acting/ACT_0004_DefiantSubjugationPerformance.md",
+      "status": "draft"
+    },
+    {
+      "id": "EDT_0003",
+      "name": "Instantaneous Climax Impact Cut",
+      "domain": "Editing",
+      "summary": "Cutting abruptly from a key verbal declaration to a lightning-fast violent action shot without transition beats to maximize narrative shock.",
+      "tags": ["editing", "cut", "impact", "action", "shock"],
+      "source": "Knowledge/Editing/EDT_0003_InstantaneousClimaxImpactCut.md",
+      "status": "draft"
+    },
+    {
+      "id": "SND_0003",
+      "name": "Acoustic Presence Isolation",
+      "domain": "Sound",
+      "summary": "Filtering ambient background noise and swelling diegetic footsteps or heartbeats to signal the entry of a dominant character before visual reveal.",
+      "tags": ["sound", "audio-mix", "footsteps", "presence", "tension"],
+      "source": "Knowledge/Sound/SND_0003_AcousticPresenceIsolation.md",
+      "status": "draft"
+    },
+    {
+      "id": "DIA_0001",
+      "name": "Rhetorical Code-Switching",
+      "domain": "Dialogue",
+      "summary": "Deliberately switching between two languages within a single speech to create rhythmic contrast, isolate modern scientific concepts from traditional language, and anchor abstract ideas in universally recognizable vocabulary.",
+      "tags": ["dialogue", "language-switching", "bilingual", "rhythm", "emphasis", "modern-concept", "clarity"],
+      "source": "Knowledge/Dialogue/DIA_0001_RhetoricalCodeSwitching.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0004",
+      "name": "Illustrative Artwork Cutaway",
+      "domain": "VisualLanguage",
+      "summary": "Intercutting a dialogue-driven interior scene with stylized artwork or illustrations that visually represent the historical, mythological, or conceptual content being described in the monologue, breaking spatial confinement and expanding narrative scale.",
+      "tags": ["visual-storytelling", "cutaway", "artwork", "interior-scene", "monologue", "scale", "illustration", "mythology"],
+      "source": "Knowledge/VisualLanguage/VIS_0004_IllustrativeArtworkCutaway.md",
+      "status": "draft"
+    },
+    {
+      "id": "MUS_0001",
+      "name": "Score-Synchronized Monologue Architecture",
+      "domain": "Music",
+      "summary": "Structuring a background score to enter softly, swell incrementally, and reach a musical climax precisely synchronized with the vocal and emotional peak of a long dramatic monologue, then quietly resolve alongside the scene's emotional denouement.",
+      "tags": ["music", "score", "monologue", "synchronization", "crescendo", "emotional-arc", "drama", "orchestral"],
+      "source": "Knowledge/Music/MUS_0001_ScoreSynchronizedMonologueArchitecture.md",
+      "status": "draft"
+    },
+    {
+      "id": "STY_0001",
+      "name": "Incremental Monologue Crescendo",
+      "domain": "Storytelling",
+      "summary": "Structuring a dramatic monologue as a five-stage ascending arc — premise, evidence accumulation, conceptual expansion, emotional peak, and quiet resolution — so that each successive stage raises intellectual and emotional stakes, culminating in a single declaration the audience has been prepared to receive.",
+      "tags": ["storytelling", "monologue", "scene-architecture", "crescendo", "dramatic-arc", "argument", "climax", "resolution"],
+      "source": "Knowledge/Storytelling/STY_0001_IncrementalMonologueCrescendo.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0005",
+      "name": "Intellectual Authority Through Environment Blocking",
+      "domain": "Acting",
+      "summary": "A performer establishes and maintains intellectual authority by using deliberate, unhurried movement through a purposefully dressed environment — touching or approaching significant objects, claiming space, and allowing the physical surroundings to speak on their behalf without explicit narration.",
+      "tags": ["acting", "blocking", "authority", "environment", "physicality", "intellectual", "monologue", "props"],
+      "source": "Knowledge/Acting/ACT_0005_IntellectualAuthorityThroughEnvironmentBlocking.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0006",
+      "name": "Vocal Shockwave Transition",
+      "domain": "Acting",
+      "summary": "A performer transitions instantly from a low, measured, and calm vocal delivery into a sudden, explosive vocal acoustic peak on a single pivotal word, creating an immediate physical and emotional shockwave across the scene.",
+      "tags": ["acting", "voice", "vocal-shift", "acoustic-peak", "volume-spike", "sudden-climax", "shock"],
+      "source": "Knowledge/Acting/ACT_0006_VocalShockwaveTransition.md",
       "status": "draft"
     }
   ]
