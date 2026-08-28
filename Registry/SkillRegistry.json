@@ -155,6 +155,60 @@
       "tags": ["sound", "audio-mix", "footsteps", "presence", "tension"],
       "source": "Knowledge/Sound/SND_0003_AcousticPresenceIsolation.md",
       "status": "draft"
+    },
+    {
+      "id": "DIA_0001",
+      "name": "Rhetorical Code-Switching",
+      "domain": "Dialogue",
+      "summary": "Deliberately switching between two languages within a single speech to create rhythmic contrast, isolate modern scientific concepts from traditional language, and anchor abstract ideas in universally recognizable vocabulary.",
+      "tags": ["dialogue", "language-switching", "bilingual", "rhythm", "emphasis", "modern-concept", "clarity"],
+      "source": "Knowledge/Dialogue/DIA_0001_RhetoricalCodeSwitching.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0004",
+      "name": "Illustrative Artwork Cutaway",
+      "domain": "VisualLanguage",
+      "summary": "Intercutting a dialogue-driven interior scene with stylized artwork or illustrations that visually represent the historical, mythological, or conceptual content being described in the monologue, breaking spatial confinement and expanding narrative scale.",
+      "tags": ["visual-storytelling", "cutaway", "artwork", "interior-scene", "monologue", "scale", "illustration", "mythology"],
+      "source": "Knowledge/VisualLanguage/VIS_0004_IllustrativeArtworkCutaway.md",
+      "status": "draft"
+    },
+    {
+      "id": "MUS_0001",
+      "name": "Score-Synchronized Monologue Architecture",
+      "domain": "Music",
+      "summary": "Structuring a background score to enter softly, swell incrementally, and reach a musical climax precisely synchronized with the vocal and emotional peak of a long dramatic monologue, then quietly resolve alongside the scene's emotional denouement.",
+      "tags": ["music", "score", "monologue", "synchronization", "crescendo", "emotional-arc", "drama", "orchestral"],
+      "source": "Knowledge/Music/MUS_0001_ScoreSynchronizedMonologueArchitecture.md",
+      "status": "draft"
+    },
+    {
+      "id": "STY_0001",
+      "name": "Incremental Monologue Crescendo",
+      "domain": "Storytelling",
+      "summary": "Structuring a dramatic monologue as a five-stage ascending arc — premise, evidence accumulation, conceptual expansion, emotional peak, and quiet resolution — so that each successive stage raises intellectual and emotional stakes, culminating in a single declaration the audience has been prepared to receive.",
+      "tags": ["storytelling", "monologue", "scene-architecture", "crescendo", "dramatic-arc", "argument", "climax", "resolution"],
+      "source": "Knowledge/Storytelling/STY_0001_IncrementalMonologueCrescendo.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0005",
+      "name": "Intellectual Authority Through Environment Blocking",
+      "domain": "Acting",
+      "summary": "A performer establishes and maintains intellectual authority by using deliberate, unhurried movement through a purposefully dressed environment — touching or approaching significant objects, claiming space, and allowing the physical surroundings to speak on their behalf without explicit narration.",
+      "tags": ["acting", "blocking", "authority", "environment", "physicality", "intellectual", "monologue", "props"],
+      "source": "Knowledge/Acting/ACT_0005_IntellectualAuthorityThroughEnvironmentBlocking.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0006",
+      "name": "Vocal Shockwave Transition",
+      "domain": "Acting",
+      "summary": "A performer transitions instantly from a low, measured, and calm vocal delivery into a sudden, explosive vocal acoustic peak on a single pivotal word, creating an immediate physical and emotional shockwave across the scene.",
+      "tags": ["acting", "voice", "vocal-shift", "acoustic-peak", "volume-spike", "sudden-climax", "shock"],
+      "source": "Knowledge/Acting/ACT_0006_VocalShockwaveTransition.md",
+      "status": "draft"
     }
   ]
 }

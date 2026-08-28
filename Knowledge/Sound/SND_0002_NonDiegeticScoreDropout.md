@@ -4,25 +4,30 @@ title: Non-Diegetic Score Dropout
 category: Sound
 domain: Sound
 subdomain: Dramatic Silence
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-28
 lastUpdated: 2026-08-28
-summary: The sudden, complete removal of background music to focus audience attention on raw, unmediated diegetic sounds or key lines of dialogue during a dramatic climax.
+summary: The sudden, complete removal of background music to focus audience attention on raw, unmediated diegetic sounds, key dialogue, or a high-pitched acoustic tinnitus ringing effect immediately following sudden violent impact.
 tags:
   - sound
   - music
   - silence
   - tension
   - climax
-confidenceScore: 0.90
+  - tinnitus
+  - acoustic-isolation
+confidenceScore: 0.92
 relatedSkills:
   - SND_0001
   - ACT_0002
+  - ACT_0006
+  - EDT_0003
 aliases:
   - Dramatic Score Silence
   - Sudden Music Cutoff
   - Non-Diegetic Silence Drop
+  - Post-Impact Ringing Isolation
 source: Knowledge/Sound/SND_0002_NonDiegeticScoreDropout.md
 references:
   - Verbatim scene analysis of 'Baahubali 2' court confrontation sequence (Bahubali 2 Telugu Super scene.mp4)
@@ -30,7 +35,7 @@ references:
 
 # Definition
 
-Non-Diegetic Score Dropout is the sound design principle of abruptly cutting off all background music or non-diegetic score elements, leaving either absolute silence or only raw diegetic audio (such as breathing, footsteps, wind, vocal reverb, or weapon sounds) immediately preceding or during a pivotal narrative event or physical action.
+Non-Diegetic Score Dropout is the sound design principle of abruptly cutting off all background music or non-diegetic score elements, leaving either absolute silence, raw diegetic audio, or a high-pitched single-frequency tone (tinnitus ringing effect) immediately preceding, during, or following a pivotal narrative event, shocking revelation, or violent strike.
 
 # Purpose
 
@@ -38,7 +43,7 @@ This skill exists to maximize the visceral impact and psychological realism of a
 
 # Psychology
 
-Non-diegetic music acts as an emotional mediator, signaling to the viewer how to feel and reminding them subconsciously that they are watching a constructed narrative. The sudden removal of this musical buffer breaks the aesthetic distance, forcing the viewer's brain to process the immediate diegetic sounds as unmediated reality. This sudden shift triggers a high-focus orienting reflex, making the subsequent action or line feel immediate, heavy, and irreversible.
+Non-diegetic music acts as an emotional mediator, signaling to the viewer how to feel and reminding them subconsciously that they are watching a constructed narrative. The sudden removal of this musical buffer breaks the aesthetic distance, forcing the viewer's brain to process the immediate diegetic sounds as unmediated reality. This sudden shift triggers a high-focus orienting reflex, making the subsequent action or line feel immediate, heavy, and irreversible. When combined with a high-pitched ringing tone following an instantaneous violent strike, it simulates the physiological acoustic shock experienced by traumatized bystanders.
 
 # Story Function
 
@@ -86,7 +91,7 @@ High-contrast key lighting or directional shafts can visually reinforce the star
 
 # Music & Sound Considerations
 
-In the mix, the non-diegetic tracks must be cut cleanly. Ambient diegetic sounds (e.g., the decay of vocal reverb, the scrape of metal, or soft room tone) should be slightly emphasized to make the silence feel like a physical, acoustic space rather than a technical audio dropout.
+In the mix, the non-diegetic tracks must be cut cleanly. Ambient diegetic sounds (e.g., the decay of vocal reverb, the scrape of metal, or soft room tone) should be slightly emphasized to make the silence feel like a physical, acoustic space rather than a technical audio dropout. In extreme shock sequences (such as a sudden execution), the audio mix can cut all ambient sounds and introduce a high-pitched sustained bell or sine-wave ringing tone to mimic auditory trauma in observers.
 
 # Best Used When
 
@@ -110,7 +115,10 @@ In the mix, the non-diegetic tracks must be cut cleanly. Ambient diegetic sounds
 
 - [SND_0001](SND_0001_SonicPunctuation.md) — Sonic Punctuation
 - [ACT_0002](../Acting/ACT_0002_ExplosiveTransition.md) — Explosive Transition from Stillness
+- [ACT_0006](../Acting/ACT_0006_VocalShockwaveTransition.md) — Vocal Shockwave Transition
+- [EDT_0003](../Editing/EDT_0003_InstantaneousClimaxImpactCut.md) — Instantaneous Climax Impact Cut
 
 # Repository Decision
 
-Decision: Create New. Video evidence from the Baahubali 2 court sequence demonstrates the sudden, absolute removal of the non-diegetic score right before a pivotal vocal declaration and physical execution. This technique is distinct from diegetic beat punctuation (SND_0001) as it concerns the manipulation of non-diegetic elements (music) to create dramatic silence, which is a highly reusable, timeless, and actor-independent sound design principle.
+Decision: Improve (v1.1.0). Video evidence from the Baahubali 2 court sequence demonstrates the sudden, absolute removal of the non-diegetic score right before a pivotal vocal declaration and physical execution, followed by high-frequency acoustic isolation (ringing tone) during reaction shots. Updated to include post-impact acoustic isolation techniques.
+

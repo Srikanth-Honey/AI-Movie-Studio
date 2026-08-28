@@ -140,29 +140,238 @@ Reverse-engineer the filmmaking language contained in the footage. For every mea
     - Listen for footsteps, ambient noise, objects, breathing, and diegetic vs. non-diegetic sounds. Note silence.
 12. **Background Score & Music:**
     - Record score start/end, intensity, rhythm, tempo, melody, crescendos, decrescendos, and instrumentation.
-13. **Action & Fight Choreography:**
-    - Record positions, strike direction, blocks, dodges, falls, recovery, and sound synchronization.
+---
 
-### G. Relationship Between Departments
-Analyze how departments work together at key moments:
-- **`Performance + Expression + Body Language + Dialogue + Voice + Blocking + Camera + Composition + Cinematography + Lighting + Color + Editing + Sound + Background Score + Rhythm`**
+### F. MANDATORY DEPTH & QUANTITY REQUIREMENTS
 
-### H. Timestamped Evidence Format
-Anchor important observations using:
-```text
-Timestamp:
-Category:
-Observation:
-Analysis:
-Confidence: [HIGH | MEDIUM | LOW | NOT OBSERVABLE]
+These are non-negotiable minimums. If not met, the analysis is incomplete.
+
+1. **Minimum 40 timestamped observation blocks** for any clip between 1–3 minutes. Scale proportionally for longer clips (minimum 15 blocks per minute of footage).
+2. **Every 5–10 seconds of footage must have at least one dedicated observation block.** Do not skip or consolidate moments.
+3. **Every block must cover at minimum 2 domains simultaneously.** No single-domain blocks allowed.
+4. **Total response must be at minimum 4000 words.** Shorter responses indicate insufficient depth.
+5. **Every block must include a minimum 3-sentence Observation and 2-sentence Analysis.**
+6. **maxOutputTokens must be set to 8192** in every API call for video analysis.
+7. **temperature must be set to 0.1** (not default) for maximum factual precision.
+
+---
+
+### G. Department-Specific Guidelines (Expanded)
+
+#### 1. Acting & Human Performance — MANDATORY ANATOMY
+For every acting moment, document ALL of the following physical zones, not just general impression:
+
+**Face Anatomy (document each zone separately):**
+- **Eyes:** Pupil direction, eyelid openness (wide/half/narrowed/closed), blink rate change, moisture/tears, squinting
+- **Eyebrows:** Position (raised/neutral/furrowed/asymmetric), tension level, inner/outer corner direction
+- **Forehead:** Wrinkling (none/minimal/deep), tension bands, directional creases
+- **Cheeks:** Raised/flat, flush visible, muscle tension
+- **Nose:** Nostril flare, bridge tension
+- **Mouth:** Corner direction (up/down/neutral), lip compression/parting, jaw tension, teeth visible/hidden, lip tremor
+- **Jaw:** Clenched/relaxed, set direction (forward/back), grinding observable
+
+**Micro-expressions (mandatory to capture):**
+- Any expression lasting less than 1 second that contradicts the dominant expression
+- Fleeting smiles before returning to neutral
+- Brief eye drops before sustained eye contact
+- Momentary lip tightening before speaking
+
+**Emotion Construction (replace broad labels with physical evidence):**
+- ❌ WRONG: "The actor looks angry"
+- ✅ CORRECT: "BEFORE → neutral brow, relaxed jaw, soft eye contact → OBSERVABLE CHANGE → inner brows descend and compress together, jaw muscles visibly tighten, eyelids narrow to approximately 60% open, gaze hardens with no blink → AFTER → sustained locked gaze, shoulders rolled forward, chin slightly lowered"
+
+**Emotion Categories (each requires specific physical evidence, not labels):**
+
+*ANGER:* Brow compression toward center, jaw set forward or clenched, eye narrowing, nostril flare, neck muscle tension, shoulders forward, voice speed increases, volume rises, jaw muscles visible
+
+*COMEDY/HUMOR:* Cheek raise, eye crinkling (orbicularis oculi activation), asymmetric mouth raise, brief head tilt, relaxed shoulders, voice pitch rises slightly, timing pause before punchline, body leans back or turns away before delivering the line
+
+*THREAT/INTIMIDATION:* Sustained unbroken eye contact, minimal blinking, deliberate slowing of movement, lowered chin, voice drops in pitch and volume (not rises), stillness in body, spatial approach toward target
+
+*GRIEF/SADNESS:* Inner eyebrow raise (corrugator supercilii), lip corners pull down, chin dimpling, eyes moistening or unfocused, shoulders cave inward, vocal tremor, head drops forward
+
+*REVERENCE/AWE:* Eyes widen and soften, head tilts slightly back, jaw relaxes and lips part slightly, body becomes still, breathing observable as deeper, voice becomes slower and quieter, body may open or turn toward the subject
+
+*FEAR:* Whites of eyes more visible (upper eyelid raises), eyebrows raise and pull together, upper lip may raise, body braces or freezes, breathing may become shallower/faster, shoulders raise toward ears
+
+*SKEPTICISM/DOUBT:* Single eyebrow raise OR brow furrow with chin forward, slight head tilt, lips pressed together, arms may cross, weight shifts back
+
+*JOY/HAPPINESS:* Both cheeks raise (Duchenne marker — genuine vs. social), eyes crinkle at outer corners, full smile with teeth, body opens and leans forward, voice brightens in quality
+
+*RESOLVE/DETERMINATION:* Jaw sets, brow lowers centrally, eyes fix on a point, shoulders square, breath held or measured, voice becomes flat and even
+
+*SURPRISE:* Eyebrows shoot upward, eyes open maximally, jaw drops or mouth opens, body may lean back, sharp intake of breath audible
+
+#### 2. Fight & Action Choreography — MANDATORY SEQUENCE FORMAT
+
+For every fight/action moment, document the full sequence using this format:
+
+```
+POSITION_START: [distance between parties, stance, guard, spatial orientation]
+ACTION_1: [who / what move / direction / target zone / observable speed]
+REACTION_1: [who / what defensive response / evasion direction / success or impact]
+IMPACT: [contact visible or cut-away / sound timing relative to visual / body response]
+RECOVERY: [time / repositioning / fatigue signals]
+POSITION_END: [distance, stance, spatial change from start]
+SOUND_SYNC: [impact sound before/simultaneous/after the visual]
 ```
 
-### I. Repository Integration & Validation
-After completing the video analysis and before starting the `Prompts/MasterPrompt.md` repository workflow, you must present the complete video analysis results to the user and request explicit approval.
+Additionally note:
+- Opening position of all parties (distance, angle, stance width, weight distribution, guard position)
+- Weapon type and observable handling technique
+- Spatial distance changes (closing / maintaining / creating distance)
+- Group dynamics: who attacks whom, in what sequence
+- Terrain usage: obstacles, elevation, surface effects
 
-1. **Present Analysis:** Show the complete timestamped evidence and the Final Review report to the user in the conversation.
-2. **Request Approval:** Stop and wait for the user's explicit approval of the analysis findings and proposed knowledge extraction before starting the `Prompts/MasterPrompt.md` workflow or modifying any repository files.
-3. **Execute:** Once the user grants approval, proceed with repository integration and validation:
+#### 3. Dialogue, Screenwriting & Language
+- Capture **every word spoken verbatim**. Preserve original language (Telugu, Hindi, Tamil, English) exactly as spoken. Use `[inaudible]` for unintelligible parts. Never paraphrase.
+- Note: sentence length, word rhythm, pauses (duration in seconds if measurable), repetitions, silence
+- Note: code-switching between languages — which word/phrase triggers the switch and why
+- Note: when silence replaces expected dialogue and what that silence communicates
+
+#### 4. Voice Performance
+- **Pitch:** Baseline and deviation (higher/lower, relatively)
+- **Volume:** Baseline and deviation. Is increase from chest, throat, or diaphragm observable?
+- **Speed:** Slow / medium / fast / very fast. Changes mid-sentence?
+- **Rhythm:** Even / conversational / staccato / legato
+- **Emphasis:** Which specific words receive emphasis, and what type (volume/pitch/pause/elongation)
+- **Pauses:** Location (before/at/after punctuation). Duration (beat/half-second/full second/extended)
+- **Breathing:** Audible? Shallow or deep? Mid-sentence or between sentences?
+- **Vocal Tension:** Tight/constricted vs. open/resonant. Tremor present?
+- **Vocal Quality:** Warm/cold, resonant/thin, breathy/pressed
+
+#### 5. Camera Language & Cinematography
+- **Shot Size:** ECU / CU / MCU / MS / MLS / LS / WS / EWS
+- **Camera Angle:** Low angle / eye level / high angle / bird's eye / dutch tilt
+- **Subject Placement:** Left-third / center / right-third; upper / mid / lower frame
+- **Eyeline:** Screen-left / screen-right / into lens / down / up / away
+- **Depth of Field:** Deep / shallow / rack focus event (describe what shifted)
+- **Camera Movement:** Static / push-in / pull-out / pan / tilt / tracking / dolly / handheld / crane
+- **Lens Behavior:** Wide-angle distortion / telephoto compression / fisheye?
+
+#### 6. Composition & Visual Design
+- Rule of thirds adherence or deliberate violation
+- Symmetry or asymmetry (which side is heavier)
+- Leading lines direction
+- Foreground / midground / background — what occupies each layer?
+- Frame-within-frame compositions (doors, windows, arches, bars)
+- Color contrast between subject and background
+
+#### 7. Lighting & Color
+- **Key light direction:** Screen-left / screen-right / front-on / back-lit / top-lit / under-lit
+- **Key light quality:** Hard (sharp shadow edges) / soft (gradual falloff)
+- **Shadow placement and hardness on face**
+- **Catchlights:** Present in eyes? Position?
+- **Fill ratio:** Low contrast (heavy fill) / high contrast Rembrandt-style (minimal fill)
+- **Overall luminosity:** High-key / mid-key / low-key
+- **Color temperature:** Warm (amber) / neutral / cool (blue)
+- **Dominant color palette:** List 2–3 hues
+
+#### 8. Editing & Pacing
+- Shot duration estimate in seconds
+- Cut type: hard cut / dissolve / match-on-action / J-cut / L-cut / smash cut
+- Cut timing relative to dialogue: mid-sentence / end / before / during pause
+- Cut timing relative to music: on the beat / between beats / on musical accent
+- Continuity: spatial continuity maintained / axis crossed
+
+#### 9. Sound Design
+- List **every audible sound** separately with source identification
+- Footsteps (surface type), clothing, props, breathing, ambient room tone, environmental
+- Diegetic (within scene world) vs. non-diegetic (added in post)
+- Silence events: when, duration, what it replaces
+
+#### 10. Background Score & Music
+- **Exact timestamp** when score enters and exits
+- **Tempo:** Slow / medium / fast (BPM estimate if possible)
+- **Instrumentation:** Strings / brass / choir / percussion / solo instrument
+- **Melodic direction:** Rising / falling / static
+- **Dynamics:** pianissimo → fortissimo range used
+- **Crescendo/decrescendo events:** timestamp + duration
+- **Score-to-dialogue alignment:** Does music rise when dialogue pauses?
+- **Score-to-cut alignment:** Musical accent on cut?
+
+#### 11. Psychology Through Observable Behavior
+Always use this format:
+- **`OBSERVABLE BEHAVIOR:`** [exact physical description only]
+- **`POSSIBLE INTERPRETATION:`** [one reading, clearly labeled]
+
+---
+
+### H. MULTI-CATEGORY BLOCK RULE (Critical)
+
+**A single timestamp MUST produce multiple observation blocks — one per domain cluster.**
+
+The same 3-second moment requires separate blocks for each:
+- Block A: Acting + Facial Expressions + Micro-expressions
+- Block B: Camera + Composition + Lighting
+- Block C: Dialogue + Voice Performance
+- Block D: Editing + Sound Design
+- Block E: Psychology + Body Language
+- Block F: Background Score + Music (if present)
+
+**Never collapse multiple domains into a single block when they contain meaningfully different observations.** The purpose of separate blocks is to make each domain's technique independently extractable as a reusable filmmaking skill.
+
+---
+
+### I. API Call Requirements for Video Analysis
+
+**Use the inline base64 approach** (the File API upload endpoint is blocked in this environment):
+
+```powershell
+# Read and encode video
+$fileBytes = [System.IO.File]::ReadAllBytes($videoPath)
+$base64 = [Convert]::ToBase64String($fileBytes)
+
+# Build request with MANDATORY config
+$requestBody = @{
+    contents = @(@{
+        role = "user"
+        parts = @(
+            @{ inline_data = @{ mime_type = "video/mp4"; data = $base64 } },
+            @{ text = $prompt }
+        )
+    })
+    generationConfig = @{
+        temperature = 0.1
+        maxOutputTokens = 8192
+    }
+} | ConvertTo-Json -Depth 10
+
+# Model priority — try in order, auto-fallback on 404
+$models = @("gemini-3.6-flash", "gemini-3.7-flash")
+```
+
+**Retry loop is mandatory:** 3 attempts per model, 15-second sleep between retries, auto-advance to next model on 404.
+
+**Progress logging is mandatory:** Write timestamped entries to a `progress.log` file at every major step.
+
+---
+
+### J. Timestamped Evidence Format
+
+Every observation block uses this EXACT format:
+
+```text
+---
+Timestamp: [HH:MM:SS – HH:MM:SS]
+Category: [Domain Name(s) — list all that apply to this block]
+Observation: [Minimum 3 sentences. Physical, observable evidence only. No interpretations.]
+Analysis: [Minimum 2 sentences. Filmmaking technique explanation.]
+Confidence: [HIGH | MEDIUM | LOW | NOT OBSERVABLE]
+---
+```
+
+**Multiple blocks for the same timestamp are expected and required.**
+
+---
+
+### K. Repository Integration & Approval Gate
+
+After completing the video analysis and before starting the `Prompts/MasterPrompt.md` repository workflow:
+
+1. **Present Analysis:** Show the complete timestamped evidence and Final Review to the user.
+2. **Request Approval:** STOP. Wait for the user's **explicit written approval** before modifying any repository files.
+3. **Execute (only after approval):**
    a. Verify the correct video was analyzed within the exact timeframe.
    b. Ensure the video was the only evidence source.
    c. Remove unsupported assumptions.
@@ -172,10 +381,17 @@ After completing the video analysis and before starting the `Prompts/MasterPromp
       ```powershell
       powershell -ExecutionPolicy Bypass -File "Tools/validate_registry.ps1"
       ```
+   g. Confirm exit code 0 before marking the task complete.
 
-### J. Final Review Format
-The final review report must clearly segregate and label:
-- **`OBSERVED FACT`**
-- **`FILMMAKING ANALYSIS`**
-- **`POSSIBLE INTERPRETATION`**
+---
 
+### L. Final Review Format
+
+The final review report must contain ALL of the following labeled sections:
+
+- **`OBSERVED FACTS:`** Bullet list — directly observable facts only
+- **`FILMMAKING ANALYSIS:`** Bullet list — technique-level observations
+- **`POSSIBLE INTERPRETATIONS:`** Bullet list — clearly labeled as interpretations only
+- **`DEPARTMENT SYNERGY MOMENTS:`** 3–5 key moments where multiple departments worked in perfect coordination, naming all departments involved
+- **`EMOTION CONSTRUCTION SUMMARY:`** For each major emotion visible — list the exact physical evidence that constructed it (not just the label). Format: `EMOTION → physical evidence list`
+- **`REUSABLE FILMMAKING PRINCIPLES OBSERVED:`** 5–10 generalizable, timeless principles applicable to other productions (these become skill candidates for the MasterPrompt workflow)
