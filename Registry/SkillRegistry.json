@@ -1,7 +1,7 @@
 {
   "$schema": "../Schemas/Registry.schema.json",
   "registryName": "AI Movie Skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "skills": [
     {
       "id": "skill-0001",
@@ -46,6 +46,33 @@
       "summary": "A precise diegetic sound can punctuate a dramatic beat and make a character's intention feel final, controlled, or irreversible.",
       "tags": ["sound", "punctuation", "emphasis", "prop", "finality"],
       "source": "Knowledge/Sound/SND_0001_SonicPunctuation.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0002",
+      "name": "Explosive Transition from Stillness",
+      "domain": "Acting",
+      "summary": "A performer transitions from silent, highly compressed physical containment to explosive kinetic movement to shock and overpower an aggressor.",
+      "tags": ["transition", "containment", "fury", "kinetics", "threat"],
+      "source": "Knowledge/Acting/ACT_0002_ExplosiveTransition.md",
+      "status": "draft"
+    },
+    {
+      "id": "VOI_0002",
+      "name": "Resonant Vocal Warning",
+      "domain": "Voice",
+      "summary": "A speaker delivers a warning in a deep, thunderous, and diaphragmatic roar to project absolute territorial dominance.",
+      "tags": ["voice", "roar", "dominance", "warning", "resonance", "power"],
+      "source": "Knowledge/Voice/VOI_0002_ResonantVocalWarning.md",
+      "status": "draft"
+    },
+    {
+      "id": "EDT_0002",
+      "name": "Kinetic Interception Cutting",
+      "domain": "Editing",
+      "summary": "Cross-cutting between a pursuing character taking physical shortcuts and escaping targets in vehicles to build kinetic velocity and collision anticipation.",
+      "tags": ["editing", "cross-cutting", "parallel-editing", "chase", "kinetics", "velocity"],
+      "source": "Knowledge/Editing/EDT_0002_KineticInterceptionCutting.md",
       "status": "draft"
     }
   ]

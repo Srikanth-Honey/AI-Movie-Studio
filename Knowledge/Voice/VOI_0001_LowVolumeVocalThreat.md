@@ -4,10 +4,10 @@ title: Low-Volume Vocal Threat
 category: Voice
 domain: Voice
 subdomain: Threat Delivery
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-04
-lastUpdated: 2026-08-04
+lastUpdated: 2026-08-28
 summary: A speaker can intensify menace by lowering volume, slowing pace, and using vocal proximity instead of shouting.
 tags:
   - voice
@@ -15,9 +15,10 @@ tags:
   - whisper
   - pace
   - intimidation
-confidenceScore: 0.83
+confidenceScore: 0.86
 relatedSkills:
   - ACT_0001
+  - VOI_0002
 aliases:
   - Whispered Threat
   - Quiet Vocal Menace
@@ -25,6 +26,7 @@ aliases:
 source: Knowledge/Voice/VOI_0001_LowVolumeVocalThreat.md
 references:
   - Structured scene evidence supplied for repository review on 2026-08-04
+  - Verbatim scene analysis of 'Mirchi' warning sequence (copied to warning_scene.mp4)
 ---
 
 # Definition
@@ -61,7 +63,7 @@ Dialogue should be concise and consequence-driven. Specific nouns, names, locati
 
 # Voice Guidance
 
-Use low pitch where appropriate, controlled breath support, slow tempo, and intentional pauses. A near-whisper can work when the recording environment preserves clarity. Emphasis should fall on consequence-bearing words rather than every line.
+Use low pitch where appropriate, controlled breath support, slow tempo, and intentional pauses. A near-whisper can work when the recording environment preserves clarity. Emphasis should fall on consequence-bearing words rather than every line. A low, steady, and measured vocal tone is also highly effective when delivering compromise or mild sarcasm under threat; it projects control and forces the aggressor to listen closely.
 
 # Body Language
 
@@ -116,3 +118,5 @@ Keep the sound bed restrained. Low-frequency support can enhance menace, but dia
 # Repository Decision
 
 Decision: Create New. Repository search found no existing voice skill explaining low-volume threat delivery as a reusable vocal principle. It is related to ACT_0001 but has a distinct domain focus: vocal mechanics and sound intelligibility rather than overall acting behaviour. Human review should confirm whether this remains separate or should be merged into a broader threat-performance skill.
+
+Improvement (v1.1.0): Improved by incorporating observations of Deva's measured, low-volume tone and sarcasm under threat from the 'Mirchi' warning sequence. Linked VOI_0002 as a related skill.

@@ -4,10 +4,10 @@ title: Controlled Threat
 category: Acting
 domain: Acting
 subdomain: Psychological Intimidation
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-04
-lastUpdated: 2026-08-04
+lastUpdated: 2026-08-28
 summary: A performer communicates danger by using stillness, quiet vocal control, and deliberate timing instead of overt aggression.
 tags:
   - threat
@@ -15,9 +15,10 @@ tags:
   - stillness
   - control
   - intimidation
-confidenceScore: 0.84
+confidenceScore: 0.88
 relatedSkills:
   - VOI_0001
+  - ACT_0002
 aliases:
   - Quiet Threat
   - Calm Intimidation
@@ -25,6 +26,7 @@ aliases:
 source: Knowledge/Acting/ACT_0001_ControlledThreat.md
 references:
   - Structured scene evidence supplied for repository review on 2026-08-04
+  - Verbatim scene analysis of 'Mirchi' warning sequence (copied to warning_scene.mp4)
 ---
 
 # Definition
@@ -53,7 +55,7 @@ The character is focused, resolved, and emotionally contained. Anger may exist i
 
 # External Behaviour
 
-The performer should minimize unnecessary movement, hold a steady posture, maintain focused eye direction, and use small deliberate gestures. Physical actions should feel chosen rather than reactive.
+The performer should minimize unnecessary movement, hold a steady posture, maintain focused eye direction, and use small deliberate gestures. Physical actions should feel chosen rather than reactive. Controlled threat can also be projected through a posture of calm compromise or light, restrained sarcasm, where the speaker appears completely unbothered by the aggressor's immediate presence.
 
 # Dialogue Guidance
 
@@ -116,3 +118,5 @@ Low-frequency drones, restrained pulses, or near-silence can support the charact
 # Repository Decision
 
 Decision: Create New. Repository search found no existing acting skill that explains calm psychological intimidation through stillness, deliberate timing, and contained threat behaviour. Reuse and Improve were unavailable because no equivalent skill exists. Create Variant, Merge, and Split were not applicable because there is no parent or overlapping skill. This draft should receive human review before approval.
+
+Improvement (v1.1.0): Improved by incorporating observations of calm patriarch restraint and light sarcasm as another key application of controlled threat, using evidence from the 'Mirchi' warning sequence. Added ACT_0002 as a related skill.

@@ -4,10 +4,10 @@ title: Sonic Punctuation
 category: Sound
 domain: Sound
 subdomain: Dramatic Sound Emphasis
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-04
-lastUpdated: 2026-08-04
+lastUpdated: 2026-08-28
 summary: A precise diegetic sound can punctuate a dramatic beat and make a character's intention feel final, controlled, or irreversible.
 tags:
   - sound
@@ -15,10 +15,11 @@ tags:
   - emphasis
   - prop
   - finality
-confidenceScore: 0.80
+confidenceScore: 0.84
 relatedSkills:
   - ACT_0001
   - EDT_0001
+  - VOI_0002
 aliases:
   - Dramatic Sound Punctuation
   - Prop Sound Emphasis
@@ -26,6 +27,7 @@ aliases:
 source: Knowledge/Sound/SND_0001_SonicPunctuation.md
 references:
   - Structured scene evidence supplied for repository review on 2026-08-04
+  - Verbatim scene analysis of 'Mirchi' warning sequence (copied to warning_scene.mp4)
 ---
 
 # Definition
@@ -54,7 +56,7 @@ The character has reached a decision or emotional threshold. The sound externali
 
 # External Behaviour
 
-The character performs a small physical action that naturally creates sound. The action should be motivated by the scene and not feel inserted only for emphasis.
+The character performs a physical action that naturally creates sound. While often small, sonic punctuation can also be heavy and kinetic (such as toppling a heavy concrete milestone or slam-closing a metal gate) to physically and audibly demarcate the boundary of a character's authority. The action should be motivated by the scene and not feel inserted only for emphasis.
 
 # Dialogue Guidance
 
@@ -66,7 +68,7 @@ Voice can drop out, pause, or reduce after the sound. If dialogue continues imme
 
 # Body Language
 
-The physical action should be clean and intentional. Overly large movement can make the sound feel theatrical instead of precise.
+The physical action should be clean and intentional. Overly large movement can make the sound feel theatrical instead of precise. For heavy sonic punctuation (like a milestone kick), the movement must be a single, final stroke of absolute power, avoiding any follow-up adjustments to preserve the clean, definitive impact of the sound.
 
 # Timing
 
@@ -117,3 +119,5 @@ Reduce competing frequencies around the punctuation sound. The sound may be slig
 # Repository Decision
 
 Decision: Create New. Repository search found no existing sound skill for diegetic sonic beat punctuation. The principle is reusable beyond the reviewed scene and distinct from music scoring or dialogue delivery. Human review should confirm whether future examples support the confidence score before approval.
+
+Improvement (v1.1.0): Improved by incorporating observations of heavy scenic prop punctuation (the concrete milestone toppling) from the 'Mirchi' warning sequence. Linked VOI_0002 as a related skill.
