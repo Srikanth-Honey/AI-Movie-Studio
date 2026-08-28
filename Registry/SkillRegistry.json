@@ -74,6 +74,33 @@
       "tags": ["editing", "cross-cutting", "parallel-editing", "chase", "kinetics", "velocity"],
       "source": "Knowledge/Editing/EDT_0002_KineticInterceptionCutting.md",
       "status": "draft"
+    },
+    {
+      "id": "ACT_0003",
+      "name": "Rhetorical Shame Leveraging",
+      "domain": "Acting",
+      "summary": "A performer leverages the visible pride of a subordinate to contrast and dismantle the target's idle self-pity, shifting from casual banter to diaphragmatic conviction.",
+      "tags": ["acting", "shame", "pride", "motivation", "vocal-shift", "dignity"],
+      "source": "Knowledge/Acting/ACT_0003_RhetoricalShameLeveraging.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0002",
+      "name": "Tactile Re-integration",
+      "domain": "VisualLanguage",
+      "summary": "A visual storytelling technique using physical contact and the transfer of a physical symbol of responsibility to represent restoration of trust and dignity.",
+      "tags": ["visual-storytelling", "blocking", "gestures", "dignity", "authority", "reconciliation"],
+      "source": "Knowledge/VisualLanguage/VIS_0002_TactileReintegration.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0001",
+      "name": "Grille-Obscured Observation",
+      "domain": "Camera",
+      "summary": "Framing characters looking through physical barriers like window grilles or doors to symbolize their emotional confinement or helplessness, which melts into tearful relief as they witness a positive transformation.",
+      "tags": ["camera", "framing", "composition", "visual-storytelling", "bars", "emotion"],
+      "source": "Knowledge/Camera/CAM_0001_GrilleObscuredObservation.md",
+      "status": "draft"
     }
   ]
 }
