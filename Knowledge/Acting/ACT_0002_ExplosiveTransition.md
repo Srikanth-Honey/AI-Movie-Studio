@@ -4,7 +4,7 @@ title: Explosive Transition from Stillness
 category: Acting
 domain: Acting
 subdomain: Dynamic Threat Performance
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-28
 lastUpdated: 2026-08-28
@@ -19,6 +19,7 @@ confidenceScore: 0.85
 relatedSkills:
   - ACT_0001
   - VOI_0002
+  - SND_0002
 aliases:
   - Contained Fury Release
   - Stillness to Kinetic Blast
@@ -26,6 +27,7 @@ aliases:
 source: Knowledge/Acting/ACT_0002_ExplosiveTransition.md
 references:
   - Verbatim scene analysis of 'Mirchi' warning sequence (copied to warning_scene.mp4)
+  - Verbatim scene analysis of 'Baahubali 2' court confrontation sequence (Bahubali 2 Telugu Super scene.mp4)
 ---
 
 # Definition
@@ -108,9 +110,12 @@ Restrained, low-frequency drones or silence should accompany the stillness phase
 
 # Related Skills
 
-- ACT_0001 — Controlled Threat
-- VOI_0002 — Resonant Vocal Warning
+- [ACT_0001](ACT_0001_ControlledThreat.md) — Controlled Threat
+- [VOI_0002](../Voice/VOI_0002_ResonantVocalWarning.md) — Resonant Vocal Warning
+- [SND_0002](../Sound/SND_0002_NonDiegeticScoreDropout.md) — Non-Diegetic Score Dropout
 
 # Repository Decision
 
 Decision: Create New. Mirchi video evidence demonstrates a performer transitioning from silent, highly compressed fury into an explosive physical warning and confrontation. This transition represents a distinct acting principle that is not covered by the calm, continuous restraint of ACT_0001 (Controlled Threat). Creating a new skill is necessary to document this dynamic performance technique.
+
+Improvement (v1.1.0): Improved by incorporating observations of explosive trial/justice transitions (the public decapitation) from the 'Baahubali 2' court sequence. Linked SND_0002 as a related skill.

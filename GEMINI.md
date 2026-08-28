@@ -158,16 +158,20 @@ Confidence: [HIGH | MEDIUM | LOW | NOT OBSERVABLE]
 ```
 
 ### I. Repository Integration & Validation
-After completing the analysis, extract transferable filmmaking knowledge and execute the `Prompts/MasterPrompt.md` workflow:
-1. Verify the correct video was analyzed within the exact timeframe.
-2. Ensure the video was the only evidence source.
-3. Remove unsupported assumptions.
-4. Ensure observations are timestamped and follow the structured block format.
-5. Validate the repository against JSON schemas and ensure the registry is updated.
-6. Run the local verification command:
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File "Tools/validate_registry.ps1"
-   ```
+After completing the video analysis and before starting the `Prompts/MasterPrompt.md` repository workflow, you must present the complete video analysis results to the user and request explicit approval.
+
+1. **Present Analysis:** Show the complete timestamped evidence and the Final Review report to the user in the conversation.
+2. **Request Approval:** Stop and wait for the user's explicit approval of the analysis findings and proposed knowledge extraction before starting the `Prompts/MasterPrompt.md` workflow or modifying any repository files.
+3. **Execute:** Once the user grants approval, proceed with repository integration and validation:
+   a. Verify the correct video was analyzed within the exact timeframe.
+   b. Ensure the video was the only evidence source.
+   c. Remove unsupported assumptions.
+   d. Ensure observations are timestamped and follow the structured block format.
+   e. Validate the repository against JSON schemas and ensure the registry is updated.
+   f. Run the local verification command:
+      ```powershell
+      powershell -ExecutionPolicy Bypass -File "Tools/validate_registry.ps1"
+      ```
 
 ### J. Final Review Format
 The final review report must clearly segregate and label:

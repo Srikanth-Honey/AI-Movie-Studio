@@ -101,6 +101,60 @@
       "tags": ["camera", "framing", "composition", "visual-storytelling", "bars", "emotion"],
       "source": "Knowledge/Camera/CAM_0001_GrilleObscuredObservation.md",
       "status": "draft"
+    },
+    {
+      "id": "SND_0002",
+      "name": "Non-Diegetic Score Dropout",
+      "domain": "Sound",
+      "summary": "The sudden, complete removal of background music to focus audience attention on raw, unmediated diegetic sounds or key lines of dialogue during a dramatic climax.",
+      "tags": ["sound", "music", "silence", "tension", "climax"],
+      "source": "Knowledge/Sound/SND_0002_NonDiegeticScoreDropout.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0003",
+      "name": "Theatrical Judicial Staging",
+      "domain": "VisualLanguage",
+      "summary": "Positioning opposing factions across distinct vertical and horizontal planes in a large set to visually dramatize power imbalances and moral conflicts.",
+      "tags": ["blocking", "staging", "verticality", "authority", "confrontation"],
+      "source": "Knowledge/VisualLanguage/VIS_0003_TheatricalJudicialStaging.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0002",
+      "name": "Heroic Speed-Ramped Entrance Tracking",
+      "domain": "Camera",
+      "summary": "Combining low-angle tracking shots with selective slow-motion speed ramping to amplify a character's physical presence and moral weight upon entering a scene.",
+      "tags": ["tracking", "low-angle", "speed-ramp", "slow-motion", "hero-entry"],
+      "source": "Knowledge/Camera/CAM_0002_HeroicSpeedRampedEntrance.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0004",
+      "name": "Defiant Subjugation Performance",
+      "domain": "Acting",
+      "summary": "Performing intense emotional defiance while physically restrained, using rigid spine posture, controlled jaw tension, and steady unblinking eye contact.",
+      "tags": ["acting", "defiance", "restraint", "chains", "eye-contact"],
+      "source": "Knowledge/Acting/ACT_0004_DefiantSubjugationPerformance.md",
+      "status": "draft"
+    },
+    {
+      "id": "EDT_0003",
+      "name": "Instantaneous Climax Impact Cut",
+      "domain": "Editing",
+      "summary": "Cutting abruptly from a key verbal declaration to a lightning-fast violent action shot without transition beats to maximize narrative shock.",
+      "tags": ["editing", "cut", "impact", "action", "shock"],
+      "source": "Knowledge/Editing/EDT_0003_InstantaneousClimaxImpactCut.md",
+      "status": "draft"
+    },
+    {
+      "id": "SND_0003",
+      "name": "Acoustic Presence Isolation",
+      "domain": "Sound",
+      "summary": "Filtering ambient background noise and swelling diegetic footsteps or heartbeats to signal the entry of a dominant character before visual reveal.",
+      "tags": ["sound", "audio-mix", "footsteps", "presence", "tension"],
+      "source": "Knowledge/Sound/SND_0003_AcousticPresenceIsolation.md",
+      "status": "draft"
     }
   ]
 }
