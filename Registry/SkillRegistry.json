@@ -335,6 +335,96 @@
       "tags": ["human-behaviour", "mass", "crowd", "legitimization", "democratic", "validation", "acclamation", "sovereignty", "political"],
       "source": "Knowledge/HumanBehaviour/HUM_0002_DemocraticMassLegitimizationBeat.md",
       "status": "draft"
+    },
+    {
+      "id": "ACT_0009",
+      "name": "Instantaneous Comedic Status Inversion Pivot",
+      "domain": "Acting",
+      "summary": "A performer in the midst of an uncontrolled, high-volume verbal tirade against social inferiors undergoes an instantaneous physical, facial, and vocal collapse into obsequious flattery the microsecond a higher-status authority figure enters their sensory field.",
+      "tags": ["acting", "comedy", "status-inversion", "pivot", "sycophancy", "vocal-shift", "facial-transformation", "biomechanics"],
+      "source": "Knowledge/Acting/ACT_0009_InstantaneousComedicStatusInversionPivot.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0010",
+      "name": "Interrupted Tirade Verbatim Resumption",
+      "domain": "Acting",
+      "summary": "Following an external interruption where an enraged character is forced to be polite to an authority figure, the moment the authority departs, the character snaps their head 180 degrees back to the original target and resumes their mid-sentence verbal abuse from the exact syllable where they were cut off.",
+      "tags": ["acting", "comedy", "tirade", "resumption", "verbatim", "timing", "pettiness", "continuity"],
+      "source": "Knowledge/Acting/ACT_0010_InterruptedTiradeVerbatimResumption.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0011",
+      "name": "False Exit Appeasement Baiting",
+      "domain": "Acting",
+      "summary": "A character dramatically stages an immediate, feigned departure — swiveling 180 degrees back toward the exit and declaring an extreme self-martyring alternative — specifically to bait guilt, panic, and appeasement from domestic counterparts.",
+      "tags": ["acting", "comedy", "false-exit", "guilt-trip", "melodrama", "domestic-conflict", "manipulation"],
+      "source": "Knowledge/Acting/ACT_0011_FalseExitAppeasementBaiting.md",
+      "status": "draft"
+    },
+    {
+      "id": "DIA_0003",
+      "name": "Hyperbolic Morbid Escalation Deflection",
+      "domain": "Dialogue",
+      "summary": "Deflecting mundane domestic care or hospitality by leaping directly to an extreme, absurd, morbidly catastrophic alternative, creating dark comedic contrast through disproportionate stakes.",
+      "tags": ["dialogue", "comedy", "hyperbole", "morbid", "escalation", "domestic", "deflection", "sarcasm"],
+      "source": "Knowledge/Dialogue/DIA_0003_HyperbolicMorbidEscalationDeflection.md",
+      "status": "draft"
+    },
+    {
+      "id": "DIA_0004",
+      "name": "English Aphorism Vernacular Homophonic Subversion",
+      "domain": "Dialogue",
+      "summary": "A pompous character attempts to assert intellectual superiority using a formal English aphorism, which is immediately hijacked by a rural or street-smart bystander who reinterprets the English word through phonetic literalism to produce an earthy, debasing counter-meaning.",
+      "tags": ["dialogue", "comedy", "pun", "homophone", "bilingual", "subversion", "aphorism", "status-leveling"],
+      "source": "Knowledge/Dialogue/DIA_0004_EnglishAphorismVernacularHomophonicSubversion.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0006",
+      "name": "Physical Verticality Disparity Framing and Scanning",
+      "domain": "Camera",
+      "summary": "Cinematographic staging that captures extreme physical height disparity between a tall, stoic protagonist and a shorter comic counterpart through vertical camera tilt scans, matched low-high angle couplings, and compressed anamorphic two-shot compositions.",
+      "tags": ["camera", "cinematography", "framing", "height-disparity", "scanning-tilt", "two-shot", "visual-comedy", "anamorphic"],
+      "source": "Knowledge/Camera/CAM_0006_PhysicalVerticalityDisparityFraming.md",
+      "status": "draft"
+    },
+    {
+      "id": "SND_0004",
+      "name": "Deadpan Open-Space Foley and Acoustic Isolation",
+      "domain": "Sound",
+      "summary": "The deliberate suppression of background score and non-diegetic music during comedic dialogue scenes, replacing it with hyper-focused dry foley (footfalls on gravel, fabric rustle, door creaks) to create an acoustic vacuum that magnifies comedic timing and character awkwardness.",
+      "tags": ["sound", "audio-design", "foley", "acoustic-isolation", "deadpan", "comedy-timing", "dry-acoustic"],
+      "source": "Knowledge/Sound/SND_0004_DeadpanOpenSpaceFoleyIsolation.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0005",
+      "name": "Triangular Multi-Tier Architectural Status Staging",
+      "domain": "VisualLanguage",
+      "summary": "Staging a multi-party comedic dialogue across distinct physical elevation planes (courtyard ground, raised verandah plinth, and threshold pillar) to naturally reflect shifting power dynamics, facilitate comedic cross-talk, and create dynamic depth-of-field sightlines.",
+      "tags": ["visual-storytelling", "blocking", "staging", "architecture", "hierarchy", "triangular-blocking", "depth-planes", "comedy"],
+      "source": "Knowledge/VisualLanguage/VIS_0005_TriangularStatusHierarchyStaging.md",
+      "status": "draft"
+    },
+    {
+      "id": "HUM_0003",
+      "name": "Cultural Hierarchy Inversion via Foot-Touching",
+      "domain": "HumanBehaviour",
+      "summary": "An intentional subversion of traditional cultural age hierarchy, where an older senior relative aggressively insists on touching the feet of a much younger protagonist to demonstrate absolute social reverence and comedic status submission.",
+      "tags": ["human-behaviour", "culture", "ritual", "hierarchy-inversion", "foot-touching", "reverence", "authority", "indian-cinema"],
+      "source": "Knowledge/HumanBehaviour/HUM_0003_CulturalHierarchyInversionFootTouching.md",
+      "status": "draft"
+    },
+    {
+      "id": "PSY_0002",
+      "name": "Cognitive Freeze and Lateral Ocular Darting Reaction Hold",
+      "domain": "Psychology",
+      "summary": "A character subjected to an utterly absurd or intellectually disarming counter-argument suffers total somatic motor paralysis (cognitive freeze) while their eyes oscillate rapidly left and right in sub-second lateral saccades, physicalizing the mind frantically processing disbelief before an explosive release.",
+      "tags": ["psychology", "cognitive-freeze", "ocular-darting", "saccades", "reaction-hold", "disbelief", "facial-paralysis", "comedy"],
+      "source": "Knowledge/Psychology/PSY_0002_CognitiveFreezeLateralOcularDarting.md",
+      "status": "draft"
     }
   ]
 }
