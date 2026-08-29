@@ -4,11 +4,11 @@ title: Sonic Punctuation
 category: Sound
 domain: Sound
 subdomain: Dramatic Sound Emphasis
-version: 1.1.0
+version: 1.2.0
 status: draft
 createdDate: 2026-08-04
-lastUpdated: 2026-08-28
-summary: A precise diegetic sound can punctuate a dramatic beat and make a character's intention feel final, controlled, or irreversible.
+lastUpdated: 2026-08-30
+summary: A precise diegetic sound can punctuate a dramatic beat and make a character's intention feel final, controlled, or irreversible; extended in v1.2.0 with Recurring Diegetic Motif Accumulation, in which repeated recurrences of the same sound across a scene build cumulative emotional charge.
 tags:
   - sound
   - punctuation
@@ -116,8 +116,43 @@ Reduce competing frequencies around the punctuation sound. The sound may be slig
 - ACT_0001 — Controlled Threat
 - EDT_0001 — Cross-Spatial Pressure Cutting
 
+# Recurring Diegetic Motif Accumulation
+
+An extension of single-beat sonic punctuation is **Recurring Diegetic Motif Accumulation**: using the same diegetic sound multiple times across a scene's duration, so each recurrence builds on the emotional charge of the previous ones and the final instance delivers a payoff disproportionate to any single occurrence.
+
+## Mechanism
+
+The brain automatically assigns increasing semantic weight to repeated stimuli that co-occur with emotionally significant narrative events. When a specific sound (chains clinking, a clock ticking, a door closing, footsteps on stone) is heard once and associated with an important story moment, that sound acquires emotional residue. When it occurs again in proximity to another important story moment, it activates both its current meaning and its accumulated previous meanings simultaneously. By the third or fourth occurrence, the sound has become a full emotional symbol — an acoustic shorthand that instantly recalls the entire emotional arc attached to it.
+
+## Structure of Accumulation
+
+The accumulation follows a three-stage structure:
+
+1. **Establishment** (first occurrence): The sound occurs in the context of a clear narrative event, establishing its primary emotional association. The audience may or may not consciously register the association.
+2. **Reinforcement** (second occurrence): The sound recurs in a new scene or beat, now carrying its original association into the new context. The two instances begin to form a pattern.
+3. **Payoff** (third or final occurrence): The sound recurs at the scene's emotional climax or turning point. All previous associations are simultaneously active, amplifying the final moment beyond what the sound alone — or the scene alone — could achieve.
+
+## Design Requirements
+
+- **Acoustic consistency**: All occurrences of the motif sound should be acoustically similar — same frequency character, similar volume and reverb profile — so the brain recognizes them as the same sound rather than similar sounds.
+- **Spacing**: Occurrences should be sufficiently separated (minimum 20–30 seconds between instances) to prevent the sound from becoming background ambience; each occurrence should feel like an event, not wallpaper.
+- **Narrative anchoring**: Each occurrence should coincide with a narratively significant moment — do not use the motif sound in neutral or transitional moments between its key appearances.
+- **Silence between**: The space between motif occurrences, where the sound is absent, is as important as the occurrences themselves. The brain's expectation of the next occurrence, once the pattern is established, creates sustained low-level anticipation.
+
+## Example Pattern (from forensic evidence)
+
+- **obs_004 (00:04–00:07)**: Metallic chain clink as Devasena deliberately raises her shackled wrists — establishes chains = defiant protest
+- **obs_008 (00:19–00:20)**: Guards yank chains taut mid-speech — reinforces chains = institutional oppression attempting to suppress defiance
+- **Final occurrence**: Chain sounds recede after the decisive act, replaced by crowd acclamation — the acoustic transition from chain-sound to crowd-sound itself marks the sovereignty transfer
+
+## Difference from Single Sonic Punctuation
+
+Single sonic punctuation (the core skill above) is a one-time event at a specific narrative beat. Recurring Diegetic Motif Accumulation is a planned acoustic architecture across the full scene or film sequence. The two techniques can co-exist: individual occurrences of the motif function as sonic punctuation in their immediate context while simultaneously contributing to the accumulation arc.
+
 # Repository Decision
 
 Decision: Create New. Repository search found no existing sound skill for diegetic sonic beat punctuation. The principle is reusable beyond the reviewed scene and distinct from music scoring or dialogue delivery. Human review should confirm whether future examples support the confidence score before approval.
 
 Improvement (v1.1.0): Improved by incorporating observations of heavy scenic prop punctuation (the concrete milestone toppling) from the 'Mirchi' warning sequence. Linked VOI_0002 as a related skill.
+
+Improvement (v1.2.0): Added Recurring Diegetic Motif Accumulation sub-section documenting the three-stage accumulation structure (establishment, reinforcement, payoff) and design requirements for sustained acoustic motif architecture across a scene. Evidence: obs_004 (00:04–00:07) and obs_008 (00:19–00:20), chain clink recurring as defiant protest motif throughout the Baahubali courtroom sequence forensic analysis.

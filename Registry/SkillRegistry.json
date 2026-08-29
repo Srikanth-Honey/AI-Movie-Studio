@@ -209,6 +209,133 @@
       "tags": ["acting", "voice", "vocal-shift", "acoustic-peak", "volume-spike", "sudden-climax", "shock"],
       "source": "Knowledge/Acting/ACT_0006_VocalShockwaveTransition.md",
       "status": "draft"
+    },
+    {
+      "id": "CAM_0003",
+      "name": "Ground-Level Kinematic Entrance",
+      "domain": "Camera",
+      "summary": "Introducing a heroic character exclusively through a ground-level backward-dolly tracking shot of their rhythmic boot strikes on a reflective surface, synchronized with low-frequency reverberant foley, before revealing the full body or face.",
+      "tags": ["entrance", "tracking", "ground-level", "kinematic", "foley", "hero-reveal", "anticipation"],
+      "source": "Knowledge/Camera/CAM_0003_GroundLevelKinematicEntrance.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0007",
+      "name": "Subversive Moral Admonition Reversal",
+      "domain": "Acting",
+      "summary": "A performer opens with a calm, measured statement that appears to reprimand their own ally, creates a charged deliberate silence, then pivots the full weight of that setup into a violent moral escalation against the true perpetrator.",
+      "tags": ["misdirection", "reversal", "dramatic-pivot", "silence", "moral-escalation", "ally", "climax"],
+      "source": "Knowledge/Acting/ACT_0007_SubversiveMoralAdmonitionReversal.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0008",
+      "name": "Predator Orbital Encirclement",
+      "domain": "Acting",
+      "summary": "A dominant character slowly and silently circles behind a speaking adversary, penetrating their rear proxemic zone, inducing visible autonomic distress without uttering a word.",
+      "tags": ["blocking", "orbit", "encirclement", "intimidation", "silence", "proxemics", "predator", "interrogation"],
+      "source": "Knowledge/Acting/ACT_0008_PredatorOrbitalEncirclement.md",
+      "status": "draft"
+    },
+    {
+      "id": "EDT_0004",
+      "name": "Silent Injustice-to-Weapon Causality Montage",
+      "domain": "Editing",
+      "summary": "Juxtaposing an Extreme Close-Up of observable injustice immediately followed by an Extreme Close-Up of a weapon grip tightening and a Close-Up of facial resolve, establishing lethal motivation through pure visual grammar without dialogue.",
+      "tags": ["editing", "montage", "ecu", "injustice", "weapon", "motivation", "silent", "causality", "visual-grammar"],
+      "source": "Knowledge/Editing/EDT_0004_SilentInjusticeWeaponCausalityMontage.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0004",
+      "name": "Foreground Fire Optical Wipe",
+      "domain": "Camera",
+      "summary": "Positioning roaring brazier or torch flames so they periodically cross the foreground lens plane during a hero tracking shot, generating organic golden light flares, heat haze, and dynamic in-camera transition wipes.",
+      "tags": ["foreground", "fire", "optical-wipe", "hero", "tracking", "practical-light", "flare", "elemental", "mythology"],
+      "source": "Knowledge/Camera/CAM_0004_ForegroundFireOpticalWipe.md",
+      "status": "draft"
+    },
+    {
+      "id": "EDT_0005",
+      "name": "Climactic Multi-Perspective Reaction Montage",
+      "domain": "Editing",
+      "summary": "Following an instantaneous violent or decisive action, cutting rapidly across 5 to 7 distinct character perspectives in 1.0 to 1.5 second portrait shots, each expressing a diametrically different emotional response.",
+      "tags": ["editing", "montage", "reaction", "climax", "multi-perspective", "ensemble", "emotional-range", "post-action"],
+      "source": "Knowledge/Editing/EDT_0005_ClimacticReactionMontage.md",
+      "status": "draft"
+    },
+    {
+      "id": "LIT_0001",
+      "name": "Moral Faction Color Temperature Coding",
+      "domain": "Lighting",
+      "summary": "Assigning consistent, distinct color temperatures to each moral faction — heroic, institutional, and corrupt — so that the audience subconsciously reads moral alignment from light before consciously processing costume, dialogue, or action.",
+      "tags": ["lighting", "color-temperature", "moral-coding", "faction", "symbolism", "practical-light", "warm-cool", "hero"],
+      "source": "Knowledge/Lighting/LIT_0001_MoralFactionColorTemperatureCoding.md",
+      "status": "draft"
+    },
+    {
+      "id": "PSY_0001",
+      "name": "Autonomic Betrayal Under Proxemic Compression",
+      "domain": "Psychology",
+      "summary": "When a deceptive character's rear proxemic zone is violated by a dominant presence, an observable cascade of involuntary autonomic responses physically dismantles the deceptive narrative without any direct accusation.",
+      "tags": ["psychology", "autonomic", "proxemics", "deception", "physiological", "fear-response", "stammering", "guilt"],
+      "source": "Knowledge/Psychology/PSY_0001_AutonomicBetrayalUnderProxemicCompression.md",
+      "status": "draft"
+    },
+    {
+      "id": "HUM_0001",
+      "name": "Involuntary Grip Betrayal of Masked Authority",
+      "domain": "HumanBehaviour",
+      "summary": "A high-authority character maintaining a composed regal facade involuntarily betrays concealed fear through progressive white-knuckle grip tension on a prop — the hands revealing what the face is determined to hide.",
+      "tags": ["human-behaviour", "involuntary", "grip", "authority", "masked", "betrayal", "fear", "prop", "hands"],
+      "source": "Knowledge/HumanBehaviour/HUM_0001_InvoluntaryGripBetrayalMaskedAuthority.md",
+      "status": "draft"
+    },
+    {
+      "id": "DIA_0002",
+      "name": "Triple Anaphoric Defiance Cadence",
+      "domain": "Dialogue",
+      "summary": "Constructing a defiance speech from three consecutive clauses with identical opening words, each clause escalating in consequence, building a rhythmic drumbeat momentum that makes the climactic final clause feel inevitable.",
+      "tags": ["dialogue", "rhetoric", "anaphora", "defiance", "cadence", "triple", "escalation", "climax", "speech"],
+      "source": "Knowledge/Dialogue/DIA_0002_TripleAnaphoricDefianceCadence.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0005",
+      "name": "Extreme Wide Spatial Irony Framing",
+      "domain": "Camera",
+      "summary": "Using an extreme wide high-angle shot to place a lone moral figure as a tiny element within an overwhelming monumental architectural space, arguing through visual contrast that scale and moral authority are unrelated.",
+      "tags": ["camera", "extreme-wide", "high-angle", "spatial-irony", "isolation", "architecture", "moral-authority", "power-inversion"],
+      "source": "Knowledge/Camera/CAM_0005_ExtremeWideSpatialIronyFraming.md",
+      "status": "draft"
+    },
+    {
+      "id": "MUS_0002",
+      "name": "Ethnic Choral Score as Divine Moral Endorsement",
+      "domain": "Music",
+      "summary": "A culture-specific ethnic vocal chorus entering at the precise moment of a heroic character's arrival, functioning as non-diegetic narrative voice that confers divine or communal moral endorsement independent of any character's spoken validation.",
+      "tags": ["music", "choral", "ethnic", "non-diegetic", "endorsement", "divine", "moral", "entrance", "score", "spiritual"],
+      "source": "Knowledge/Music/MUS_0002_EthnicChoralScoreDivineEndorsement.md",
+      "status": "draft"
+    },
+    {
+      "id": "FTH_0001",
+      "name": "Spatial Sovereignty Transfer",
+      "domain": "FilmTheory",
+      "summary": "A meta-level directorial principle in which the physical center space of a confrontation setting functions as a sovereignty marker — tracking which character inhabits it reveals the scene's true moral and political arc independent of dialogue, camera, or editing.",
+      "tags": ["film-theory", "sovereignty", "spatial", "blocking", "power", "moral-arc", "ensemble", "architecture", "cross-departmental"],
+      "source": "Knowledge/FilmTheory/FTH_0001_SpatialSovereigntyTransfer.md",
+      "status": "draft"
+    },
+    {
+      "id": "HUM_0002",
+      "name": "Democratic Mass Legitimization Beat",
+      "domain": "HumanBehaviour",
+      "summary": "An instantaneous mass public acclamation by common citizens immediately following a morally significant act, functioning as a narrative sovereignty transfer from formal institutional authority to moral authority.",
+      "tags": ["human-behaviour", "mass", "crowd", "legitimization", "democratic", "validation", "acclamation", "sovereignty", "political"],
+      "source": "Knowledge/HumanBehaviour/HUM_0002_DemocraticMassLegitimizationBeat.md",
+      "status": "draft"
     }
   ]
 }
+

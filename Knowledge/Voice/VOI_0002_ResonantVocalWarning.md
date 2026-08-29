@@ -4,11 +4,11 @@ title: Resonant Vocal Warning
 category: Voice
 domain: Voice
 subdomain: Dominance Projection
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-28
-lastUpdated: 2026-08-28
-summary: A speaker delivers a warning in a deep, thunderous, and diaphragmatic roar to project absolute territorial dominance.
+lastUpdated: 2026-08-30
+summary: A speaker delivers a warning in a deep, thunderous, and diaphragmatic roar to project absolute territorial dominance; extended in v1.1.0 with the Intimate Pivot Technique — the sudden collapse to a single soft emotionally-loaded word after a vocal peak.
 tags:
   - voice
   - roar
@@ -112,6 +112,37 @@ The background score should drop out or reduce to a simple, low-frequency drone 
 - ACT_0002 — Explosive Transition from Stillness
 - VOI_0001 — Low-Volume Vocal Threat
 
+# The Intimate Pivot Technique
+
+The most emotionally devastating application of the Resonant Vocal Warning is the **Intimate Pivot**: terminating a peak-volume resonant delivery on a single, intimately soft emotionally-loaded word — one that carries the scene's moral weight — by simultaneously collapsing both volume and pitch at the moment of that word's delivery.
+
+## Mechanism
+
+The Intimate Pivot exploits the brain's auditory contrast-detection system. After 8–20 seconds of peak resonant delivery, the nervous system of all listeners has adapted to the elevated acoustic stimulation. When volume and pitch simultaneously drop to intimate levels (near-whisper or soft conversational register) on a single final word, the contrast generates a sensation of sudden proximity — as if the speaker has moved from six feet away to six inches away in the space of one syllable. The intimate word is heard more intensely than any part of the preceding roar.
+
+## The Pivoting Word
+
+The pivoting word should be the scene's most emotionally condensed single lexical unit — a word that carries relationship weight, moral memory, or existential recognition. Examples:
+- A family relationship title: "Amma" (mother), "Anna" (elder brother), "Nanna" (father)
+- A name: speaking the antagonist's name softly after a public denunciation
+- A moral absolute: "truth", "enough", "done"
+
+The pivoting word should be the last word of the speech — ending on the intimate collapse ensures it is the final acoustic impression the audience carries away.
+
+## Technical Execution
+
+- **Breath**: Exhale the resonant peak phrase on a controlled breath; ensure there is sufficient remaining breath for the pivot word — the pivot must not sound breathless or strained.
+- **Volume collapse**: Drop 15–25 dB between the final resonant syllable and the pivot word. This is a genuine drop, not a gradual fade — the pivot is instantaneous.
+- **Pitch drop**: Lower pitch 3–6 semitones simultaneously with the volume collapse.
+- **Micro-pause before the pivot**: A half-beat (0.3–0.5 seconds) of silence before the pivot word creates the "inhale before the whisper" effect that intensifies the contrast.
+- **Resonance preservation**: Despite the volume drop, the pivot word should retain chest resonance — it should not become a mere breathy exhalation.
+
+## Emotional Effect
+
+The pivot from roar to intimate word transforms the preceding warning from public declaration into private truth. The resonant warning addresses a room; the intimate pivot word addresses a single person, or the speaker's own moral core. This shift in register collapses the social distance between speaker and listener at the moment of maximum emotional exposure, creating the sensation that all the roar was leading to this one quiet word.
+
 # Repository Decision
 
 Decision: Create New. Mirchi scene evidence demonstrates a speaker delivering an explosive warning using a deep, diaphragmatic, and thunderous roar. This represents a distinct vocal principle from the whispered, low-volume menace of VOI_0001. Creating a new skill is necessary to capture this high-impact, resonant warning technique.
+
+Improvement (v1.1.0): Added Intimate Pivot Technique sub-section documenting the sudden volume-and-pitch collapse to a single emotionally-loaded word after a resonant peak. Evidence: forensic analysis obs_022 (02:04–02:08), Baahubali's volcanic baritone roar ending on heart-rending 'Amma' with micro-pause from forensic JSON of Baahubali courtroom sequence.

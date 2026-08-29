@@ -4,20 +4,25 @@ title: Defiant Subjugation Performance
 category: Acting
 domain: Acting
 subdomain: Micro-Expressions & Body Language
-version: 1.0.0
+version: 1.1.0
 status: draft
 createdDate: 2026-08-28
-lastUpdated: 2026-08-28
-summary: Performing intense emotional defiance while physically restrained, using rigid spine posture, controlled jaw tension, and steady unblinking eye contact.
+lastUpdated: 2026-08-30
+summary: Performing intense emotional defiance while physically restrained, using rigid spine posture, controlled jaw tension, and sustained unblinking eye contact — including the Unblinking Moral Indictment Gaze as the scene's terminal weapon.
 tags:
   - acting
   - defiance
   - restraint
   - chains
   - eye-contact
+  - unblinking-gaze
+  - moral-indictment
+  - blink-suppression
 confidenceScore: 0.90
 relatedSkills:
   - ACT_0001
+  - ACT_0007
+  - ACT_0008
   - VIS_0003
 aliases:
   - Restrained Defiance
@@ -109,6 +114,35 @@ Diegetic sound design must capture the metallic clinking of the chains, syncing 
 - [ACT_0001](ACT_0001_ControlledThreat.md) — Controlled Threat
 - [VIS_0003](../VisualLanguage/VIS_0003_TheatricalJudicialStaging.md) — Theatrical Judicial Staging
 
+# Unblinking Moral Indictment Gaze
+
+The most extreme application of this skill's eye-contact principle is the **Unblinking Moral Indictment Gaze**: an extended, completely unbroken direct gaze held for a minimum of 6 continuous seconds while delivering a high-stakes ethical denunciation against high-status authority figures, under conditions of physical restraint, with complete suppression of the blink reflex.
+
+## Mechanism
+
+The blink reflex in humans occurs approximately every 4–6 seconds under normal conditions, driven by corneal moisture maintenance. Under psychological stress (such as a threatening confrontation), blink rate typically increases. Voluntarily suppressing the blink reflex beyond the 6-second threshold, while under simultaneous stress and while delivering complex rhetoric, signals complete neurological mastery over the involuntary systems that normally respond to threat. To the observer, a character who does not blink is communicating: *I am not afraid of you. My nervous system has received your threat signal and dismissed it.*
+
+## Duration Threshold
+
+The minimum effective duration for the Unblinking Moral Indictment Gaze is **6 continuous seconds**. Below this threshold, the gaze may read as normal composure rather than deliberate defiance. Above 6 seconds, each additional second exponentially amplifies the psychological pressure on the authority figure, who — under the social obligation to reciprocate eye contact — must either sustain the uncomfortable contact or break gaze first. Breaking gaze first constitutes a visible moral concession.
+
+## Effect on the Authority Figure
+
+The authority figure facing the sustained gaze experiences an inversion of the normal intimidation dynamic: they hold formal power, guards, chains, and legal authority, yet the captive's unblinking eyes make the authority figure feel observed, evaluated, and found morally insufficient. The larger the asymmetry between formal power (the authority's) and the psychological command of the gaze (the captive's), the more powerful the effect.
+
+## Performance Notes
+
+- Pre-hydrate the eyes sufficiently for the take — dry eyes will force an involuntary blink before the duration threshold is reached.
+- Direct the gaze precisely at the bridge of the authority figure's nose rather than their eyes — this allows the camera a perfect direct-gaze impression while reducing the physical strain of sustained eye-to-eye contact.
+- The jaw must be slightly set but not clenched — clenching produces facial tension that disrupts the impression of effortless composure.
+- Any micro-expression of anger, contempt, or satisfaction during the gaze will reduce its power — the gaze's strength comes from complete emotional neutrality combined with perfect stillness.
+
+## Camera Coverage
+
+Capture the Unblinking Moral Indictment Gaze in a close-up or medium-close framing that includes the full eye area without cropping. The authority figure's reaction — breaking gaze, shifting in their seat, gripping a prop harder (see HUM_0001) — should be inter-cut with the sustained gaze to make the causal relationship between the gaze and the authority figure's discomfort visible.
+
 # Repository Decision
 
 Decision: Create New. Video analysis of Devasena's court scene demonstrates a performance of absolute defiance while heavily chained. This is a distinct acting principle that is not covered by standard threat or pacing skills, and is highly reusable in historical, political, or action dramas.
+
+Improvement (v1.1.0): Added Unblinking Moral Indictment Gaze sub-section with blink-suppression mechanism, 6-second duration threshold, authority-figure effect, and camera coverage guidance. Evidence: forensic analysis obs_002–003 (00:02–00:10), sustained ≥6s unblinking direct gaze during ethical denunciation from forensic JSON of Baahubali courtroom sequence. Related skills updated to include ACT_0007 and ACT_0008.
