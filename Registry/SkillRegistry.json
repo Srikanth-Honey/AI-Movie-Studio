@@ -425,6 +425,96 @@
       "tags": ["psychology", "cognitive-freeze", "ocular-darting", "saccades", "reaction-hold", "disbelief", "facial-paralysis", "comedy"],
       "source": "Knowledge/Psychology/PSY_0002_CognitiveFreezeLateralOcularDarting.md",
       "status": "draft"
+    },
+    {
+      "id": "CAM_0007",
+      "name": "Deadpan Symmetrical Tension Tableau",
+      "domain": "Camera",
+      "summary": "Staging a high-stakes life-or-death confrontation inside a static, rigidly symmetrical proscenium master shot where characters are bound by strict spatial immobility, maximizing internal suspense through geometric containment.",
+      "tags": ["camera", "cinematography", "tableau", "symmetry", "deadpan", "proscenium", "tension", "master-shot"],
+      "source": "Knowledge/Camera/CAM_0007_DeadpanSymmetricalTensionTableau.md",
+      "status": "draft"
+    },
+    {
+      "id": "STY_0002",
+      "name": "Socratic Moral Confession Extraction",
+      "domain": "Storytelling",
+      "summary": "A narrative screenwriting technique where the protagonist poses a hypothetical question to a grieving loved one, extracting their violent desire for vengeance to establish explicit moral legitimacy and emotional absolution before revealing their own pre-existing homicidal actions.",
+      "tags": ["storytelling", "screenwriting", "moral-justification", "socratic-dialogue", "vigilante", "character-arc", "narrative-structure"],
+      "source": "Knowledge/Storytelling/STY_0002_SocraticMoralConfessionExtraction.md",
+      "status": "draft"
+    },
+    {
+      "id": "LIT_0002",
+      "name": "Intrusion Lighting Headlight Slashing",
+      "domain": "Lighting",
+      "summary": "Piercing a warm, low-key interior with moving, high-intensity cool xenon vehicle headlight beams sweeping through window louvers or blinds, creating dynamic slashing shadows that visually signal impending violent invasion.",
+      "tags": ["lighting", "neo-noir", "headlight-slashing", "louvers", "intrusion", "suspense", "color-temperature-contrast"],
+      "source": "Knowledge/Lighting/LIT_0002_IntrusionLightingHeadlightSlashing.md",
+      "status": "draft"
+    },
+    {
+      "id": "CAM_0008",
+      "name": "Hypnotic Creep Confession Monologue",
+      "domain": "Camera",
+      "summary": "Executing an unbroken, extremely slow dolly push-in on an actor delivering a low-key, matter-of-fact confession of lethal violence, systematically compressing the frame's background and forcing audience focus into the actor's ocular micro-expressions.",
+      "tags": ["camera", "cinematography", "dolly-push-in", "confession", "monologue", "long-take", "temporal-deceleration", "portraiture"],
+      "source": "Knowledge/Camera/CAM_0008_HypnoticCreepConfessionMonologue.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0012",
+      "name": "Zero-Flinch Stoic Dominance Stance",
+      "domain": "Acting",
+      "summary": "The complete suppression of somatic startle and survival reflexes when facing an immediate, raised lethal weapon, establishing overwhelming psychological superiority and signaling concealed tactical countermeasures.",
+      "tags": ["acting", "biomechanics", "startle-reflex-suppression", "stoicism", "dominance", "threat-response", "mass-hero"],
+      "source": "Knowledge/Acting/ACT_0012_ZeroFlinchStoicDominance.md",
+      "status": "draft"
+    },
+    {
+      "id": "VIS_0006",
+      "name": "Asymmetrical Sniper Decimation Ambush",
+      "domain": "VisualLanguage",
+      "summary": "Subverting an apparent close-quarters melee massacre by deploying pre-positioned, concealed long-range snipers who neutralize entering assailants in rapid succession, leaving the unarmed protagonist untouched at the center of the kill zone.",
+      "tags": ["visual-storytelling", "action-staging", "ambush", "sniper", "subversion", "tactical-dominance", "set-piece"],
+      "source": "Knowledge/VisualLanguage/VIS_0006_AsymmetricalSniperDecimationAmbush.md",
+      "status": "draft"
+    },
+    {
+      "id": "ACT_0013",
+      "name": "Talismanic Spectacle Cleansing Transfiguration",
+      "domain": "Acting",
+      "summary": "Utilizing everyday eyeglasses as a dual-identity talisman — the character calmly removes blood-spattered spectacles, cleanses the lenses with measured slow-motion biomechanics, and stares forward unshielded, finalizing the transfiguration from mild-mannered civilian to lethal apex predator.",
+      "tags": ["acting", "props", "spectacles", "transfiguration", "hero-reveal", "mass-cinema", "talisman", "blood-splatter"],
+      "source": "Knowledge/Acting/ACT_0013_TalismanicSpectacleCleansingTransfiguration.md",
+      "status": "draft"
+    },
+    {
+      "id": "SND_0005",
+      "name": "Micro-Foley to Explosive Theme Transition",
+      "domain": "Sound",
+      "summary": "Stripping away all musical ambience to isolate a delicate, tactile micro-foley texture (e.g., cloth wiping glass), followed immediately by an explosive, full-frequency orchestral or synthesized theme drop on the climactic visual reveal.",
+      "tags": ["sound", "sound-design", "audio-mix", "dynamic-range", "foley", "theme-drop", "transition", "interval-climax"],
+      "source": "Knowledge/Sound/SND_0005_MicroFoleyToExplosiveThemeTransition.md",
+      "status": "draft"
+    },
+    {
+      "id": "PSY_0003",
+      "name": "Micro-Grief Suppression and Transient Leakage",
+      "domain": "Psychology",
+      "summary": "A performance and psychological technique where a character maintaining a hardened, stoic facade exhibits a sub-second transient activation of genuine grief (corrugator inner-brow lift) on a specific triggering word, before immediately clamping down into emotional containment.",
+      "tags": ["psychology", "micro-expressions", "grief", "suppression", "leakage", "facs", "acting", "vulnerability"],
+      "source": "Knowledge/Psychology/PSY_0003_MicroGriefSuppressionTransientLeakage.md",
+      "status": "draft"
+    },
+    {
+      "id": "HUM_0004",
+      "name": "Positional Containment Decree",
+      "domain": "HumanBehaviour",
+      "summary": "An authoritative patriarch or tactical commander imposing total physical immobility on dependents and allies during an impending crisis, turning a domestic living space into a disciplined, controlled operational field while suppressing instinctual flight responses.",
+      "tags": ["human-behaviour", "authority", "command", "containment", "discipline", "panic-suppression", "spatial-control"],
+      "source": "Knowledge/HumanBehaviour/HUM_0004_PositionalContainmentDecree.md",
+      "status": "draft"
     }
   ]
 }
